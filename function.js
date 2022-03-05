@@ -32,3 +32,15 @@ let a=function div(num1,num2){
 }
 
 console.log("Division = "+a(10,2));
+
+// IIFE --> Immediately Invoked Function Expression
+
+(function(){
+    console.log("hi there");
+})();
+
+// IIFE --> With parameter
+
+(function(num){
+    console.log("hi "+num);
+})("shourya");
