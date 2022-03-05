@@ -24,5 +24,18 @@ console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 
 ele.push("push kr diya");
 
-console.log(ele);
+console.log("push -- "+ele);
 
+ele.pop();
+
+console.log("pop -- "+ele);
+
+ele.shift();
+
+console.log("shift -- "+ele);
+
+ele.unshift("test shift");
+
+console.log("unshift -- "+ele);
+
+console.log("array length "+ ele.length);
