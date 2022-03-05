@@ -17,3 +17,9 @@ console.log(slicestr);
 
 let replacestr=s.replace("Hi","Hello");
 console.log(replacestr);
+
+//split
+
+let ab="hi mast maja aa gya";
+let splitab=ab.split(" ");
+console.log(splitab);
